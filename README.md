@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project!
+# Welcome to CDK TypeScript CloudFront-S3-Angular project!
 
 This is a blank project for TypeScript development with CDK.
 
@@ -26,5 +26,5 @@ S3_BUCKET_NAME = 'YOUR BUCKET NAME'
 ### To build the infrastructure
 * `cdk deploy` to deploy this stack to your default AWS account/region
 
-Go to this site to setup your environment for CDK. 
+Go to this site to setup your environment for CDK. The setup requires you to run `cdk boostrap` to setup the region for the cdk.
 https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
