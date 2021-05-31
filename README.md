@@ -22,3 +22,9 @@ S3_BUCKET_NAME = 'YOUR BUCKET NAME'
 
 /web-app/app is the folder that contains the Angular web app. It contains the default NG app.
 
+## How to run
+### To build the infrastructure
+* `cdk deploy` to deploy this stack to your default AWS account/region
+
+Go to this site to setup your environment for CDK. 
+https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
