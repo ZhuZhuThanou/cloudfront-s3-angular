@@ -3,7 +3,7 @@ import * as cdk from "@aws-cdk/core";
 import * as cloudfront from '@aws-cdk/aws-cloudfront';
 import * as origins from '@aws-cdk/aws-cloudfront-origins';
 
-export class CloudFrontS3Angular extends cdk.Stack {
+export class CloudfrontS3AngularStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
